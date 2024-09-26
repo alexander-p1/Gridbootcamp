@@ -1,22 +1,95 @@
-* {
-    box-sizing: border-box;
-    border-radius: 1rem;
-    background-color: aqua; 
+/* Tärning 1 */
+.dots-1 aside:nth-child(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    place-self: center;
 }
 
-body {
-    display: grid;
-    width: 100vh;
-    height: 100vh;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 200px)
+/* Tärning 2 */
+.dots-2 aside:nth-child(1) {
+    grid-area: a;
 }
 
-article {
-    border: 1px solid black;
-    display: grid;
+.dots-2 aside:nth-child(2) {
+    grid-area: -b;
+}
 
-}  
+/* Tärning 3 */
+.dots-3 aside:nth-child(1) {
+    grid-area: a;
+}
+
+.dots-3 aside:nth-child(2) {
+    grid-area: g;
+}
+
+.dots-3 aside:nth-child(3) {
+    grid-area: b;
+}
+
+/* Tärning 4 */
+.dots-4 aside:nth-child(1) {
+    grid-area: a;
+}
+
+.dots-4 aside:nth-child(2) {
+    grid-area: c;
+}
+
+.dots-4 aside:nth-child(3) {
+    grid-area: d;
+}
+
+.dots-4 aside:nth-child(4) {
+    grid-area: b;
+}
+
+/* Tärning 5 */
+.dots-5 aside:nth-child(1) {
+    grid-area: a;
+}
+
+.dots-5 aside:nth-child(2) {
+    grid-area: c;
+}
+
+.dots-5 aside:nth-child(3) {
+    grid-area: d;
+}
+
+.dots-5 aside:nth-child(4) {
+    grid-area: b;
+}
+
+.dots-5 aside:nth-child(5) {
+    grid-area: g;
+}
+
+/* Tärning 6 */
+.dots-6 aside:nth-child(1) {
+    grid-area: a;
+}
+
+.dots-6 aside:nth-child(2) {
+    grid-area: e;
+}
+
+.dots-6 aside:nth-child(3) {
+    grid-area: d;
+}
+
+.dots-6 aside:nth-child(4) {
+    grid-area: c;
+}
+
+.dots-6 aside:nth-child(5) {
+    grid-area: f;
+}
+
+.dots-6 aside:nth-child(6) {
+    grid-area: b;
+}
+
 
 
 

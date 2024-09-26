@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, hotpink, black);
+    gap: 10px;
+}
+
+
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    
+    display: grid;
+    
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas: 
+    "a . c"
+    "e g f"
+    "d . b"
+    ;
+
+    
+}
+
+aside {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    place-self: center;
+    background-color: black;
+}
